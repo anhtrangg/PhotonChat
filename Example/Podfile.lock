@@ -1,0 +1,16 @@
+PODS:
+  - PhotonChat (0.1.0)
+
+DEPENDENCIES:
+  - PhotonChat (from `../`)
+
+EXTERNAL SOURCES:
+  PhotonChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PhotonChat: d862f0b4e51d8427d2a24f903e4725cfd9611670
+
+PODFILE CHECKSUM: be10d1a93445b4da02ce6637e0079dc230109a3d
+
+COCOAPODS: 1.10.0

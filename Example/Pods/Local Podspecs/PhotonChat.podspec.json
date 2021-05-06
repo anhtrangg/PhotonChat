@@ -1,0 +1,22 @@
+{
+  "name": "PhotonChat",
+  "version": "0.1.0",
+  "summary": "A short description of PhotonChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/anh.tran@gogame.net/PhotonChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "anh.tran@gogame.net": "anh.tran@gogame.net"
+  },
+  "source": {
+    "git": "https://github.com/anh.tran@gogame.net/PhotonChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PhotonChat/Classes/**/*"
+}

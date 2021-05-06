@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PhotonChat_Tests' do
+  pod 'PhotonChat', :path => '../'
+  
+  
+end
