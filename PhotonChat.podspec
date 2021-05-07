@@ -23,7 +23,7 @@ I bring PhotonChat to cocoapod so other developers can using its.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = "PhotonChat","PhotonChat/**/*{h,m}"
+  s.source_files = "PhotonChat","PhotonChat/**/*{h}"
   s.vendored_libraries =
 'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_catalyst.a',
 'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_iphoneos.a',
