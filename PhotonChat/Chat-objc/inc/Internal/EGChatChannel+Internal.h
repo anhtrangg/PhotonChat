@@ -6,7 +6,7 @@
 
 #pragma once
 
-#import "Chat-objc/inc/EGChatChannel.h"
+#import "EGChatChannel.h"
 
 @interface EGChatChannel ()
 

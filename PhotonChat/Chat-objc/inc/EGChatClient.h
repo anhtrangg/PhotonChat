@@ -6,15 +6,15 @@
 
 #pragma once
 
-#import "Photon-objc/inc/EGPhotonListener.h"
-#import "Chat-objc/inc/EGAuthenticationValues.h"
-#import "Chat-objc/inc/EGChatChannel.h"
-#import "Chat-objc/inc/EGChatListener.h"
-#import "Chat-objc/inc/EGChatPeer.h"
-#import "Chat-objc/inc/Enums/EGClientState.h"
-#import "Chat-objc/inc/Enums/EGDisconnectCause.h"
-#import "Chat-objc/inc/Enums/EGErrorCode.h"
-#import "Chat-objc/inc/Enums/EGUserStatus.h"
+#import "EGPhotonListener.h"
+#import "EGAuthenticationValues.h"
+#import "EGChatChannel.h"
+#import "EGChatListener.h"
+#import "EGChatPeer.h"
+#import "EGClientState.h"
+#import "EGDisconnectCause.h"
+#import "EGErrorCode.h"
+#import "EGUserStatus.h"
 
 @interface EGChatClient : NSObject  <EGPhotonListener>
 

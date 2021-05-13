@@ -7,8 +7,8 @@
 #pragma once
 
 #import <Foundation/Foundation.h>
-#import "Common-objc/inc/EGArray.h"
-#import "Common-objc/inc/EGBaseListener.h"
+#import "EGArray.h"
+#import "EGBaseListener.h"
 
 @class EGArray;
 

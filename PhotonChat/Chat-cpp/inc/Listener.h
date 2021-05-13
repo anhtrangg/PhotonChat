@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "Photon-cpp/inc/PhotonPeer.h"
+#include "PhotonPeer.h"
 
 namespace ExitGames
 {

@@ -6,13 +6,13 @@
 
 #pragma once
 
-#include "Chat-cpp/inc/Channel.h"
-#include "Chat-cpp/inc/Listener.h"
-#include "Chat-cpp/inc/Peer.h"
-#include "Chat-cpp/inc/Enums/ClientState.h"
-#include "Chat-cpp/inc/Enums/DisconnectCause.h"
-#include "Chat-cpp/inc/Enums/ErrorCode.h"
-#include "Chat-cpp/inc/Enums/UserStatus.h"
+#include "Channel.h"
+#include "Listener.h"
+#include "Peer.h"
+#include "Enums/ClientState.h"
+#include "Enums/DisconnectCause.h"
+#include "Enums/ErrorCode.h"
+#include "Enums/UserStatus.h"
 
 namespace ExitGames
 {

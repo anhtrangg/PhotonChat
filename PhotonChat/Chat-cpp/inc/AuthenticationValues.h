@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "Chat-cpp/inc/Enums/CustomAuthenticationType.h"
+#include "CustomAuthenticationType.h"
 
 namespace ExitGames
 {

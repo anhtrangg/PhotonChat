@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "Common-cpp/inc/Helpers/SmartPointers/SmartPointerInterface.h"
+#include "SmartPointerInterface.h"
 
 namespace ExitGames
 {

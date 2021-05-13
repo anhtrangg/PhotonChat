@@ -6,9 +6,9 @@
 
 #pragma once
 
-#import "Photon-objc/inc/EGPhotonPeer.h"
-#import "Chat-objc/inc/EGAuthenticationValues.h"
-#import "Common-objc/inc/EGArray.h"
+#import "EGPhotonPeer.h"
+#import "EGAuthenticationValues.h"
+#import "EGArray.h"
 
 @interface EGChatPeer : EGPhotonPeer
 

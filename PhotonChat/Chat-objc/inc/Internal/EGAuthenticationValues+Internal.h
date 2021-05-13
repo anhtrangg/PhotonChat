@@ -6,7 +6,7 @@
 
 #pragma once
 
-#import "Chat-objc/inc/EGAuthenticationValues.h"
+#import "EGAuthenticationValues.h"
 
 @interface EGMutableAuthenticationValues ()
 

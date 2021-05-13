@@ -7,7 +7,7 @@
 #pragma once
 
 #import <Foundation/NSData.h>
-#import "Common-objc/inc/EGBase.h"
+#import "EGBase.h"
 
 @interface EGAuthenticationValues : EGBase
 

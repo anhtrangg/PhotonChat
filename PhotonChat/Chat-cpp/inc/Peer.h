@@ -6,8 +6,8 @@
 
 #pragma once
 
-#include "Photon-cpp/inc/PhotonPeer.h"
-#include "Chat-cpp/inc/AuthenticationValues.h"
+#include "PhotonPeer.h"
+#include "AuthenticationValues.h"
 
 namespace ExitGames
 {
