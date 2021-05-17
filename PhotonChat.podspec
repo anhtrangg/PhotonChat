@@ -14,14 +14,15 @@ Pod::Spec.new do |s|
 I bring PhotonChat to cocoapod so other developers can using its.
                        DESC
 
-  s.homepage         = 'https://github.com/anh.tran@gogame.net/PhotonChat'
+  s.homepage         = 'https://github.com/anhtrangg/PhotonChat'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tran Quoc Anh' => 'Tran Quoc Anh' }
-  s.source           = { :git => 'https://github.com/anh.tran@gogame.net/PhotonChat.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/anhtrangg/PhotonChat', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # s.default_subspec  = 'ChatObjc'
   s.ios.deployment_target = '9.0'
+  s.xcconfig = { "OTHER_LINK_FLAG" => '-ObjC -lstdc++ -lChat-objc_debug -lCommon-objc_debug -lPhoton-objc_debug' }
 
   # s.subspec 'ChatCpp' do |ss|
   #   ss.ios.source_files = [
@@ -72,25 +73,29 @@ I bring PhotonChat to cocoapod so other developers can using its.
   
   s.ios.vendored_libraries =
 # 'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_catalyst.a',
-'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_iphoneos.a',
+'PhotonChat/Chat-cpp/lib/libChat-cpp_debug.a',
+# 'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_iphoneos.a',
 # 'PhotonChat/Chat-cpp/lib/libChat-cpp_debug_iphonesimulator.a',
 # 'PhotonChat/Chat-cpp/lib/libChat-cpp_release_catalyst.a',
 # 'PhotonChat/Chat-cpp/lib/libChat-cpp_release_iphoneos.a',
 # 'PhotonChat/Chat-cpp/lib/libChat-cpp_release_iphonesimulator.a',
 # 'PhotonChat/Chat-objc/lib/libChat-objc_debug_catalyst.a',
-'PhotonChat/Chat-objc/lib/libChat-objc_debug_iphoneos.a',
+'PhotonChat/Chat-objc/lib/libChat-objc_debug.a',
+# 'PhotonChat/Chat-objc/lib/libChat-objc_debug_iphoneos.a',
 # 'PhotonChat/Chat-objc/lib/libChat-objc_debug_iphonesimulator.a',
 # 'PhotonChat/Chat-objc/lib/libChat-objc_release_catalyst.a',
 # 'PhotonChat/Chat-objc/lib/libChat-objc_release_iphoneos.a',
 # 'PhotonChat/Chat-objc/lib/libChat-objc_release_iphonesimulator.a',
 # 'PhotonChat/Common-cpp/lib/libCommon-cpp_debug_catalyst.a',
-'PhotonChat/Common-cpp/lib/libCommon-cpp_debug_iphoneos.a',
+'PhotonChat/Common-cpp/lib/libCommon-cpp_debug.a',
+# 'PhotonChat/Common-cpp/lib/libCommon-cpp_debug_iphoneos.a',
 # 'PhotonChat/Common-cpp/lib/libCommon-cpp_debug_iphonesimulator.a',
 # 'PhotonChat/Common-cpp/lib/libCommon-cpp_release_catalyst.a',
 # 'PhotonChat/Common-cpp/lib/libCommon-cpp_release_iphoneos.a',
 # 'PhotonChat/Common-cpp/lib/libCommon-cpp_release_iphonesimulator.a',
 # 'PhotonChat/Common-objc/lib/libCommon-objc_debug_catalyst.a',
-'PhotonChat/Common-objc/lib/libCommon-objc_debug_iphoneos.a',
+'PhotonChat/Common-objc/lib/libCommon-objc_debug.a',
+# 'PhotonChat/Common-objc/lib/libCommon-objc_debug_iphoneos.a',
 # 'PhotonChat/Common-objc/lib/libCommon-objc_debug_iphonesimulator.a',
 # 'PhotonChat/Common-objc/lib/libCommon-objc_release_catalyst.a',
 # 'PhotonChat/Common-objc/lib/libCommon-objc_release_iphoneos.a',
@@ -108,14 +113,16 @@ I bring PhotonChat to cocoapod so other developers can using its.
 # 'PhotonChat/LoadBalancing-objc/lib/libLoadBalancing-objc_release_iphoneos.a',
 # 'PhotonChat/LoadBalancing-objc/lib/libLoadBalancing-objc_release_iphonesimulator.a',
 # 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_debug_catalyst.a',
-'PhotonChat/Photon-cpp/lib/libPhoton-cpp_debug_iphoneos.a',
+'PhotonChat/Photon-cpp/lib/libPhoton-cpp_debug.a',
+# 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_debug_iphoneos.a',
 # 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_debug_iphonesimulator.a',
 # 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_release_catalyst.a',
 # 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_release_iphoneos.a',
 # 'PhotonChat/Photon-cpp/lib/libPhoton-cpp_release_iphonesimulator.a',
 # 'PhotonChat/Photon-objc/lib/libPhoton-objc_debug_catalyst.a',
-'PhotonChat/Photon-objc/lib/libPhoton-objc_debug_iphoneos.a'
-# 'PhotonChat/Photon-objc/lib/libPhoton-objc_debug_iphonesimulator.a',
+'PhotonChat/Photon-objc/lib/libPhoton-objc_debug.a'
+# 'PhotonChat/Photon-objc/lib/libPhoton-objc_debug_iphoneos.a',
+# 'PhotonChat/Photon-objc/lib/libPhoton-objc_debug_iphonesimulator.a'
 # 'PhotonChat/Photon-objc/lib/libPhoton-objc_release_catalyst.a',
 # 'PhotonChat/Photon-objc/lib/libPhoton-objc_release_iphoneos.a',
 # 'PhotonChat/Photon-objc/lib/libPhoton-objc_release_iphonesimulator.a'
